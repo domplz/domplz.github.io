@@ -6,8 +6,14 @@ html, body {
     background-color: variables.$background-color;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .page-content {
-    display: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .page-loading {

@@ -9,6 +9,6 @@ window.addEventListener("load", () => {
 });
 
 const init = () => {
-    (document.querySelector(".page-loading")! as HTMLElement).style.display = "none";
-    (document.querySelector(".page-content")! as HTMLElement).style.display = "block";
+    (document.querySelector(".page-loading")! as HTMLElement).classList.add("hidden");
+    (document.querySelector(".page-content")! as HTMLElement).classList.remove("hidden");
 }
