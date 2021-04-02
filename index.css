@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("img/the-boy.jpg"), url("img/the-boy-2.jpg");
+    background-image: url("img/the-boy.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-position-x: center;
@@ -94,5 +94,16 @@ h1,h2,h3,h4,h5,h6{
     }
     .fab {
         padding: 10px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    body {
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url("img/the-boy-portrait.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
     }
 }
