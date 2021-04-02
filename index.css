@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
     max-width: 500px;
     margin: auto;
     border: 5px solid white;
-    padding-bottom: 25px;
+    padding: 0 25px 25px 25px;
 }
 
 .social-links {
